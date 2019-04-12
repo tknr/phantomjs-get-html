@@ -1,4 +1,5 @@
 #!/bin/bash
+cd `dirname $0`
 export IFS=$'\n'
 
 DATE=`date +%Y_%m_%d`
